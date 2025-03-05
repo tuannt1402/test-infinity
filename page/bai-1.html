@@ -13,36 +13,84 @@
 </head>
 
 <body>
-    <div class="header d-flex">
-        <img class="header-logo" src="/public//image/logo.png" alt="logo">
-        <div class="d-flex flex-column flex-1">
-            <div class="typo-h4-bold text-black-3030">Shop Name</div>
-            <div class="header-desc body-2-regular">Shop address</div>
+    <div class="container">
+        <div class="header d-flex">
+            <img class="header-logo" src="/public//image/logo.png" alt="logo">
+            <div class="d-flex flex-column align-item-center justify-content-center flex-1">
+                <div class="typo-h4-bold text-black-3030">Shop Name</div>
+                <div class="header-desc body-2-regular">Shop address</div>
+            </div>
         </div>
+        <!-- bài tập 1 -->
+        <main class="order">
+            <section class="order__number">
+                <div class="order__number-container d-flex align-item-center justify-content-center flex-column">
+                    <div class="order__number-title text-black-5859">Your order number</div>
+                    <h1 class="order__number-id text-yellow-A100">Sushi - #005</h1>
+                </div>
+            </section>
+            <section class="order__container d-flex flex-column">
+                <div class="order__container-item d-flex">
+                    <div class="order__container-time">
+                        <h5 class="body-3-semibold text-black-2A2B">14:45</h5>
+                        <p class="body-2-regular text-black-5859">Nov 20, 2024</p>
+                    </div>
+                    <div class="order__container-status">
+                        <img src="/public/image/status-done.png" alt="status done">
+                    </div>
+                    <div class="order__container-text">
+                        <h5 class="body-3-semibold text-black-2A2B">Order received</h5>
+                        <p class="body-2-regular text-black-5859">We have received your order.</p>
+                    </div>
+                </div>
+                <div class="order__container-item d-flex">
+                    <div class="order__container-time">
+                        <h5 class="body-3-semibold text-black-2A2B">14:45</h5>
+                        <p class="body-2-regular text-black-5859">Nov 20, 2024</p>
+                    </div>
+                    <div class="order__container-status order__container-status--failed">
+                        <img src="/public/image/status-failed.png" alt="status failed">
+                    </div>
+                    <div class="order__container-text">
+                        <h5 class="body-3-semibold text-black-2A2B">All drivers are currently busy</h5>
+                        <p class="body-2-regular text-black-5859">We’re sorry, all our drivers are currently busy. The system could not find a suitable driver at this time. </p>
+                    </div>
+                </div>
+                <div class="order__container-item d-flex">
+                    <div class="order__container-time">
+                        <h5 class="body-3-semibold text-black-2A2B">14:50</h5>
+                        <p class="body-2-regular text-black-5859">Nov 20, 2024</p>
+                    </div>
+                    <div class="order__container-status">
+                        <img src="/public/image/status-done.png" alt="status done">
+                    </div>
+                    <div class="order__container-text">
+                        <h5 class="body-3-semibold text-black-2A2B">Cancel Order & Refund</h5>
+                        <p class="body-2-regular text-black-5859">The order will be canceled.</p>
+                    </div>
+                </div>
+                <div class="order__container-item d-flex">
+                    <div class="order__container-time">
+                        <h5 class="body-3-semibold text-black-2A2B">14:51</h5>
+                        <p class="body-2-regular text-black-5859">Nov 20, 2024</p>
+                    </div>
+                    <div class="order__container-status">
+                        <img src="/public/image/status-in-progress.png" alt="status in progress">
+                    </div>
+                    <div class="order__container-text">
+                        <h5 class="body-3-semibold text-black-2A2B">Refund successful</h5>
+                        <p class="body-2-regular text-black-5859">Your money will be refunded in a couple of minutes</p>
+                    </div>
+                </div>
+            </section>
+            <section class="order__modal d-flex flex-column align-item-center">
+                <h2 class="typo-h2-semibold">Sorry, We Couldn’t Deliver</h2>
+                <p class="body-1-regular text-center text-black-5859">We couldn’t find a driver this time. Please try ordering again or choose Takeaway
+                    instead.
+                    Thank you for understanding!</p>
+                <a href="/page/bai-2.html" class="order__modal-button typo-h3-semibold text-black-2A2B text-center w-100" aria-label="Place a new order">Place new order</a>
+            </section>
+        </main>
     </div>
-    <!-- bài tập 1 -->
-    <main class="order">
-        <section class="order__number">
-            <div class="order__number-container d-flex flex-column">
-                <div class="order__number-title text-black-5859">Your order number</div>
-                <h1 class="order__number-id text-yellow-A100">Sushi - #005</h1>
-            </div>
-        </section>
-        <section class="order__container">
-            <div class="order__container-item">
-                <div class="order__container-time"></div>
-                <div class="order__container-status"></div>
-                <div class="order__container-text"></div>
-            </div>
-        </section>
-        <section class="order__modal d-flex flex-column">
-            <h2 class="typo-h2-semibold">Sorry, We Couldn’t Deliver</h2>
-            <p class="body-1-regular text-center text-black-5859">We couldn’t find a driver this time. Please try ordering again or choose Takeaway
-                instead.
-                Thank you for understanding!</p>
-            <button class="order__modal-button typo-h3-semibold w-100" aria-label="Place a new order">Place new order</button>
-        </section>
-    </main>
-
 </body>
 </html>

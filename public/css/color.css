@@ -5,6 +5,7 @@
     --white: #FFFFFF;
     --yellow-hexCC5B: #F7CC5B;
     --yellow-hexA100: #DEA100;
+    --red-hex222D: #F5222D;
 }
 
 .text-black-2A2B {
@@ -21,4 +22,8 @@
 
 .text-yellow-A100 {
     color: var(--yellow-hexA100);
+}
+
+.text-red-222D {
+    color: var(--red-hex222D);
 }
