@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 1 Test Order Infinity</title>
+    <link rel="stylesheet" href="/public/css/main.css">
+    <link rel="stylesheet" href="/public/css/base.css">
+    <link rel="stylesheet" href="/public/css/color.css">
+    <link rel="stylesheet" href="/public/css/typography.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header d-flex">
+        <img class="header-logo" src="/public//image/logo.png" alt="logo">
+        <div class="d-flex flex-column flex-1">
+            <div class="typo-h4-bold text-black-3030">Shop Name</div>
+            <div class="header-desc body-2-regular">Shop address</div>
+        </div>
+    </div>
+    <!-- bài tập 1 -->
+    <main class="order">
+        <section class="order__number">
+            <div class="order__number-container d-flex flex-column">
+                <div class="order__number-title text-black-5859">Your order number</div>
+                <h1 class="order__number-id text-yellow-A100">Sushi - #005</h1>
+            </div>
+        </section>
+        <section class="order__container">
+            <div class="order__container-item">
+                <div class="order__container-time"></div>
+                <div class="order__container-status"></div>
+                <div class="order__container-text"></div>
+            </div>
+        </section>
+        <section class="order__modal d-flex flex-column">
+            <h2 class="typo-h2-semibold">Sorry, We Couldn’t Deliver</h2>
+            <p class="body-1-regular text-center text-black-5859">We couldn’t find a driver this time. Please try ordering again or choose Takeaway
+                instead.
+                Thank you for understanding!</p>
+            <button class="order__modal-button typo-h3-semibold w-100" aria-label="Place a new order">Place new order</button>
+        </section>
+    </main>
+
+</body>
+</html>

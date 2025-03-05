@@ -1,0 +1,24 @@
+:root {
+    --black-hex2A2B: #2A2A2B;
+    --black-hex3030 : #303030;
+    --black-hex5859 : #575859;
+    --white: #FFFFFF;
+    --yellow-hexCC5B: #F7CC5B;
+    --yellow-hexA100: #DEA100;
+}
+
+.text-black-2A2B {
+    color: var(--black-hex2A2B);
+}
+
+.text-black-3030 {
+    color: var(--black-hex3030);
+}
+
+.text-black-5859 {
+    color: var(--black-hex5859);
+}
+
+.text-yellow-A100 {
+    color: var(--yellow-hexA100);
+}

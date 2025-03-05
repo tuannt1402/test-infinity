@@ -1,0 +1,35 @@
+.typo-h1-semibold {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.typo-h2-semibold {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.typo-h3-semibold {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.typo-h4-bold {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.body-1-regular {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.body-2-regular {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
